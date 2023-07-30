@@ -1,7 +1,7 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
 
-const ASSET_URL = process.env.ASSET_URL || ''
+const ASSET_URL = './dist'
 
 export default defineConfig({
   base: '/file_storage/',
